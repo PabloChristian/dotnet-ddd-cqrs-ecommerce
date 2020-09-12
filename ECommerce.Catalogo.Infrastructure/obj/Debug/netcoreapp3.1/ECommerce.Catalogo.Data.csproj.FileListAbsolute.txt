@@ -1,0 +1,7 @@
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.deps.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.AssemblyInfoInputs.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.AssemblyInfo.cs
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Data.pdb

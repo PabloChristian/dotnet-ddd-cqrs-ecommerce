@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ECommerce.Vendas.Infrastructure/1.0.0": {
+        "runtime": {
+          "ECommerce.Vendas.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerce.Vendas.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

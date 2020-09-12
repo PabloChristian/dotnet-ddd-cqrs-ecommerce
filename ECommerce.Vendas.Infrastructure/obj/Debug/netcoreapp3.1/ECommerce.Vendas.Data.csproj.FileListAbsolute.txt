@@ -1,0 +1,7 @@
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Data.deps.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Data.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Data.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Data.AssemblyInfoInputs.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Data.AssemblyInfo.cs
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Data.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Data.pdb
