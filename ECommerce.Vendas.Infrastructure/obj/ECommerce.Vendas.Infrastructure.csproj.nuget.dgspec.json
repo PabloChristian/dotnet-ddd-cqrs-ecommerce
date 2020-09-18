@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Data\\ECommerce.Vendas.Infrastructure.csproj": {}
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Infrastructure\\ECommerce.Vendas.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Data\\ECommerce.Vendas.Infrastructure.csproj": {
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Infrastructure\\ECommerce.Vendas.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Data\\ECommerce.Vendas.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Infrastructure\\ECommerce.Vendas.Infrastructure.csproj",
         "projectName": "ECommerce.Vendas.Infrastructure",
-        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Data\\ECommerce.Vendas.Infrastructure.csproj",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Infrastructure\\ECommerce.Vendas.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Data\\obj\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

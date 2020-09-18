@@ -28,30 +28,30 @@ namespace ECommerce.Catalogo.Domain.Events
             _mediatorHandler = mediatorHandler;
         }
 
-        public async Task Handle(ProdutoAbaixoEstoqueEvent mensagem, CancellationToken cancellationToken)
+        public async Task Handle(ProdutoAbaixoEstoqueEvent _mensagem, CancellationToken _cancellationToken)
         {
-            var produto = await _produtoRepository.ObterPorId(mensagem.AggregateId);
+            var produto = await _produtoRepository.ObterPorId(_mensagem.AggregateId);
 
             // Enviar um email para aquisicao de mais produtos.
         }
 
-        public async Task Handle(PedidoIniciadoEvent message, CancellationToken cancellationToken)
+        public async Task Handle(PedidoIniciadoEvent _message, CancellationToken _cancellationToken)
         {
-            var result = await _estoqueService.DebitarListaProdutosPedido(message.ProdutosPedido);
+            var result = await _estoqueService.DebitarListaProdutosPedido(_message.ProdutosPedido);
 
             if (result)
             {
-                await _mediatorHandler.PublicarEvento(new PedidoEstoqueConfirmadoEvent(message.PedidoId, message.ClienteId, message.Total, message.ProdutosPedido, message.NomeCartao, message.NumeroCartao, message.ExpiracaoCartao, message.CvvCartao));
+                await _mediatorHandler.PublicarEvento(new PedidoEstoqueConfirmadoEvent(_message.PedidoId, _message.ClienteId, _message.Total, _message.ProdutosPedido, _message.NomeCartao, _message.NumeroCartao, _message.ExpiracaoCartao, _message.CvvCartao));
             }
             else
             {
-                await _mediatorHandler.PublicarEvento(new PedidoEstoqueRejeitadoEvent(message.PedidoId, message.ClienteId));
+                await _mediatorHandler.PublicarEvento(new PedidoEstoqueRejeitadoEvent(_message.PedidoId, _message.ClienteId));
             }
         }
 
-        public async Task Handle(PedidoProcessamentoCanceladoEvent message, CancellationToken cancellationToken)
+        public async Task Handle(PedidoProcessamentoCanceladoEvent _message, CancellationToken _cancellationToken)
         {
-            await _estoqueService.ReporListaProdutosPedido(message.ProdutosPedido);
+            await _estoqueService.ReporListaProdutosPedido(_message.ProdutosPedido);
         }
     }
 }

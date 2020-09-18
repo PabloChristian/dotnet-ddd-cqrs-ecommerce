@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Data\\ECommerce.Catalogo.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj",
       "projectName": "ECommerce.Catalogo.Infrastructure",
-      "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Data\\ECommerce.Catalogo.Infrastructure.csproj",
+      "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Data\\obj\\",
+      "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

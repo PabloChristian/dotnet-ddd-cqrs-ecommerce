@@ -9,9 +9,9 @@ namespace ECommerce.Catalogo.Domain.Events
     {
         public int QuantidadeRestante { get; private set; }
 
-        public ProdutoAbaixoEstoqueEvent(Guid aggregateId, int quantidadeRestante) : base(aggregateId)
+        public ProdutoAbaixoEstoqueEvent(Guid _aggregateId, int _quantidadeRestante) : base(_aggregateId)
         {
-            QuantidadeRestante = quantidadeRestante;
+            QuantidadeRestante = _quantidadeRestante;
         }
     }
 }

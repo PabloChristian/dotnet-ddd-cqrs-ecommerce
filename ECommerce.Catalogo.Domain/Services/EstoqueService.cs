@@ -14,23 +14,23 @@ namespace ECommerce.Catalogo.Domain
         private readonly IProdutoRepository _produtoRepository;
         private readonly IMediatorHandler _mediatorHandler;
 
-        public EstoqueService(IProdutoRepository produtoRepository,
-                              IMediatorHandler mediatorHandler)
+        public EstoqueService(IProdutoRepository _produtoRepository,
+                              IMediatorHandler _mediatorHandler)
         {
-            _produtoRepository = produtoRepository;
-            _mediatorHandler = mediatorHandler;
+            this._produtoRepository = _produtoRepository;
+            this._mediatorHandler = _mediatorHandler;
         }
 
-        public async Task<bool> DebitarEstoque(Guid produtoId, int quantidade)
+        public async Task<bool> DebitarEstoque(Guid _produtoId, int _quantidade)
         {
-            if (!await DebitarItemEstoque(produtoId, quantidade)) return false;
+            if (!await DebitarItemEstoque(_produtoId, _quantidade)) return false;
 
             return await _produtoRepository.UnitOfWork.Commit();
         }
 
-        public async Task<bool> DebitarListaProdutosPedido(ListaProdutosPedido lista)
+        public async Task<bool> DebitarListaProdutosPedido(ListaProdutosPedido _lista)
         {
-            foreach (var item in lista.Itens)
+            foreach (var item in _lista.Itens)
             {
                 if (!await DebitarItemEstoque(item.Id, item.Quantidade)) return false;
             }
@@ -38,19 +38,19 @@ namespace ECommerce.Catalogo.Domain
             return await _produtoRepository.UnitOfWork.Commit();
         }
 
-        private async Task<bool> DebitarItemEstoque(Guid produtoId, int quantidade)
+        private async Task<bool> DebitarItemEstoque(Guid _produtoId, int _quantidade)
         {
-            var produto = await _produtoRepository.ObterPorId(produtoId);
+            var produto = await _produtoRepository.ObterPorId(_produtoId);
 
             if (produto == null) return false;
 
-            if (!produto.PossuiEstoque(quantidade))
+            if (!produto.PossuiEstoque(_quantidade))
             {
                 await _mediatorHandler.PublicarNotificacao(new DomainNotification("Estoque", $"Produto - {produto.Nome} sem estoque"));
                 return false;
             }
 
-            produto.DebitarEstoque(quantidade);
+            produto.DebitarEstoque(_quantidade);
 
             // Para testes usando 10, pode ser parametrizado
             if (produto.QuantidadeEstoque < 10)

@@ -11,15 +11,15 @@ namespace ECommerce.Catalogo.Domain
         public decimal Largura { get; private set; }
         public decimal Profundidade { get; private set; }
 
-        public Dimensoes(decimal altura, decimal largura, decimal profundidade)
+        public Dimensoes(decimal _altura, decimal _largura, decimal _profundidade)
         {
-            Validacao.ValidarSeMenorQue(altura, 1, "O campo Altura não pode ser menor ou igual a 0");
-            Validacao.ValidarSeMenorQue(largura, 1, "O campo Largura não pode ser menor ou igual a 0");
-            Validacao.ValidarSeMenorQue(profundidade, 1, "O campo Profundidade não pode ser menor ou igual a 0");
+            Validacao.ValidarSeMenorQue(_altura, 1, "O campo Altura não pode ser menor ou igual a 0");
+            Validacao.ValidarSeMenorQue(_largura, 1, "O campo Largura não pode ser menor ou igual a 0");
+            Validacao.ValidarSeMenorQue(_profundidade, 1, "O campo Profundidade não pode ser menor ou igual a 0");
 
-            Altura = altura;
-            Largura = largura;
-            Profundidade = profundidade;
+            Altura = _altura;
+            Largura = _largura;
+            Profundidade = _profundidade;
         }
 
         public string DescricaoFormatada()

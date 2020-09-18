@@ -8,7 +8,7 @@ namespace ECommerce.Catalogo.Domain
 {
     public class Produto : Entity, IAggregateRoot
     {
-        public Guid CategoriaId { get; private set; }
+        public Guid Id { get; private set; }
         public string Nome { get; private set; }
         public string Descricao { get; private set; }
         public bool Ativo { get; private set; }
@@ -17,19 +17,24 @@ namespace ECommerce.Catalogo.Domain
         public string Imagem { get; private set; }
         public int QuantidadeEstoque { get; private set; }
         public Dimensoes Dimensoes { get; private set; }
-        public Departamento Categoria { get; private set; }
+        public Categoria Categoria { get; private set; }
+        public SubCategoria SubCategoria { get; private set; }
+        public SubCategoriaNivelDois SubCategoriaNivelDois { get; private set; }
+        public Marca Marca { get; private set; }
 
         protected Produto() { }
-        public Produto(string nome, string descricao, bool ativo, decimal valor, Guid categoriaId, DateTime dataCadastro, string imagem, Dimensoes dimensoes)
+        public Produto(string _nome, string _descricao, bool _ativo, decimal _valor, DateTime _dataCadastro, string _imagem, Dimensoes _dimensoes, Categoria _categoria, SubCategoria _subCategoria, SubCategoriaNivelDois _subCategoriaNivelDois)
         {
-            CategoriaId = categoriaId;
-            Nome = nome;
-            Descricao = descricao;
-            Ativo = ativo;
-            Valor = valor;
-            DataCadastro = dataCadastro;
-            Imagem = imagem;
-            Dimensoes = dimensoes;
+            Nome = _nome;
+            Descricao = _descricao;
+            Ativo = _ativo;
+            Valor = _valor;
+            DataCadastro = _dataCadastro;
+            Imagem = _imagem;
+            Dimensoes = _dimensoes;
+            Categoria = _categoria;
+            SubCategoria = _subCategoria;
+            SubCategoriaNivelDois = _subCategoriaNivelDois;
 
             Validar();
         }
@@ -38,40 +43,38 @@ namespace ECommerce.Catalogo.Domain
 
         public void Desativar() => Ativo = false;
 
-        public void AlterarCategoria(Departamento categoria)
+        public void AlterarCategoria(Categoria _categoria)
         {
-            Categoria = categoria;
-            CategoriaId = categoria.Id;
+            Categoria = _categoria;
         }
 
-        public void AlterarDescricao(string descricao)
+        public void AlterarDescricao(string _descricao)
         {
-            Validacao.ValidarSeVazio(descricao, "O campo Descricao do produto não pode estar vazio");
-            Descricao = descricao;
+            Validacao.ValidarSeVazio(_descricao, "O campo Descricao do produto não pode estar vazio");
+            Descricao = _descricao;
         }
 
-        public void DebitarEstoque(int quantidade)
+        public void DebitarEstoque(int _quantidade)
         {
-            if (quantidade < 0) quantidade *= -1;
-            if (!PossuiEstoque(quantidade)) throw new DomainException("Estoque insuficiente");
-            QuantidadeEstoque -= quantidade;
+            if (_quantidade < 0) _quantidade *= -1;
+            if (!PossuiEstoque(_quantidade)) throw new DomainException("Estoque insuficiente");
+            QuantidadeEstoque -= _quantidade;
         }
 
-        public void ReporEstoque(int quantidade)
+        public void ReporEstoque(int _quantidade)
         {
-            QuantidadeEstoque += quantidade;
+            QuantidadeEstoque += _quantidade;
         }
 
-        public bool PossuiEstoque(int quantidade)
+        public bool PossuiEstoque(int _quantidade)
         {
-            return QuantidadeEstoque >= quantidade;
+            return QuantidadeEstoque >= _quantidade;
         }
 
         public void Validar()
         {
             Validacao.ValidarSeVazio(Nome, "O campo Nome do produto não pode estar vazio");
             Validacao.ValidarSeVazio(Descricao, "O campo Descricao do produto não pode estar vazio");
-            Validacao.ValidarSeIgual(CategoriaId, Guid.Empty, "O campo CategoriaId do produto não pode estar vazio");
             Validacao.ValidarSeMenorQue(Valor, 1, "O campo Valor do produto não pode se menor igual a 0");
             Validacao.ValidarSeVazio(Imagem, "O campo Imagem do produto não pode estar vazio");
         }

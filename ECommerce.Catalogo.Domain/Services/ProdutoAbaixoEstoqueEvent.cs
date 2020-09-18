@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ECommerce.Core.Service.Message.DomainEvent;
+using System;
 
 namespace ECommerce.Catalogo.Domain
 {
-    internal class ProdutoAbaixoEstoqueEvent
+    internal class ProdutoAbaixoEstoqueEvent : DomainEvent
     {
         private Guid id;
         private int quantidadeEstoque;

@@ -27,9 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Vendas.Applicatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Vendas.Domain", "ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj", "{E26B5700-FA3E-4BEA-82AD-EE62AAE3046A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Vendas.Infrastructure", "ECommerce.Vendas.Data\ECommerce.Vendas.Infrastructure.csproj", "{D3E7EA3A-1FC2-4169-B739-CE69D4CBF862}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Vendas.Infrastructure", "ECommerce.Vendas.Infrastructure\ECommerce.Vendas.Infrastructure.csproj", "{D3E7EA3A-1FC2-4169-B739-CE69D4CBF862}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Catalogo.Infrastructure", "ECommerce.Catalogo.Data\ECommerce.Catalogo.Infrastructure.csproj", "{0D7EF8C1-DFA4-411C-9188-83DD734C6CDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Catalogo.Infrastructure", "ECommerce.Catalogo.Infrastructure\ECommerce.Catalogo.Infrastructure.csproj", "{0D7EF8C1-DFA4-411C-9188-83DD734C6CDF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Catalogo.Domain", "ECommerce.Catalogo.Domain\ECommerce.Catalogo.Domain.csproj", "{3E396777-5832-4827-AA92-63C540323090}"
 EndProject

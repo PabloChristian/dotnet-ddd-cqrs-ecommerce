@@ -11,12 +11,12 @@ namespace ECommerce.Catalogo.Domain.Interface
         Task<IEnumerable<Produto>> ObterTodos();
         Task<Produto> ObterPorId(Guid id);
         Task<IEnumerable<Produto>> ObterPorCategoria(int codigo);
-        Task<IEnumerable<Departamento>> ObterFamilias();
+        Task<IEnumerable<SubCategoria>> ObterFamilias();
 
         void Adicionar(Produto produto);
         void Atualizar(Produto produto);
 
-        void Adicionar(Departamento categoria);
-        void Atualizar(Departamento categoria);
+        void Adicionar(SubCategoria categoria);
+        void Atualizar(SubCategoria categoria);
     }
 }
