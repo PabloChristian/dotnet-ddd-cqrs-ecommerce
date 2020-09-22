@@ -5,3 +5,10 @@ C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcore
 C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.AssemblyInfo.cs
 C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.dll
 C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Data\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.deps.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.pdb

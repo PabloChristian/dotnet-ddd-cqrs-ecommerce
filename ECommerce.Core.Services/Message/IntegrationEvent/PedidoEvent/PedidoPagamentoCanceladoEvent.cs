@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ECommerce.Core.Service.DomainObject.DTO;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ECommerce.Core.Service.Message.IntegrationEvent.PedidoEvent;
+namespace ECommerce.Core.Service.Message.IntegrationEvent.PedidoEvent
 {
     public class PedidoProcessamentoCanceladoEvent : IntegrationEvent
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace ECommerce.Core.Service.Message.IntegrationEvent.PedidoEvent;
+namespace ECommerce.Core.Service.Message.IntegrationEvent.PedidoEvent
 {
     public class PedidoEstoqueConfirmadoEvent : IntegrationEvent
     {

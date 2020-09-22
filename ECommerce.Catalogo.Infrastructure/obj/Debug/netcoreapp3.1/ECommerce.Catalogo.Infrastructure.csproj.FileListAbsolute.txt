@@ -5,3 +5,11 @@ C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netco
 C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.AssemblyInfo.cs
 C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.dll
 C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Catalogo.Data\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.deps.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Infrastructure.pdb

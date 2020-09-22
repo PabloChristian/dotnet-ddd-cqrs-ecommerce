@@ -25,7 +25,7 @@ namespace ECommerce.Catalogo.Domain
         {
             if (!await DebitarItemEstoque(_produtoId, _quantidade)) return false;
 
-            return await _produtoRepository.UnitOfWork.Commit();
+            return true;
         }
 
         public async Task<bool> DebitarListaProdutosPedido(ListaProdutosPedido _lista)
@@ -35,7 +35,7 @@ namespace ECommerce.Catalogo.Domain
                 if (!await DebitarItemEstoque(item.Id, item.Quantidade)) return false;
             }
 
-            return await _produtoRepository.UnitOfWork.Commit();
+            return true;
         }
 
         private async Task<bool> DebitarItemEstoque(Guid _produtoId, int _quantidade)
@@ -52,7 +52,7 @@ namespace ECommerce.Catalogo.Domain
 
             produto.DebitarEstoque(_quantidade);
 
-            // Para testes usando 10, pode ser parametrizado
+            //PARAMETRIZAR DEPOIS
             if (produto.QuantidadeEstoque < 10)
             {
                 await _mediatorHandler.PublicarDomainEvent(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
@@ -69,7 +69,7 @@ namespace ECommerce.Catalogo.Domain
                 await ReporItemEstoque(item.Id, item.Quantidade);
             }
 
-            return await _produtoRepository.UnitOfWork.Commit();
+            return true;
         }
 
         public async Task<bool> ReporEstoque(Guid produtoId, int quantidade)
@@ -78,7 +78,7 @@ namespace ECommerce.Catalogo.Domain
 
             if (!sucesso) return false;
 
-            return await _produtoRepository.UnitOfWork.Commit();
+            return true;
         }
 
         private async Task<bool> ReporItemEstoque(Guid produtoId, int quantidade)

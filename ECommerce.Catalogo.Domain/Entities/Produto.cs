@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ECommerce.Catalogo.Domain.Interface;
 using ECommerce.Core.Service.DomainObject;
 using ECommerce.Core.Service.DomainObject.Validation;
 
 namespace ECommerce.Catalogo.Domain
 {
-    public class Produto : Entity, IAggregateRoot
+    public class Produto : Entity, IProduto, IAggregateRoot
     {
-        public Guid Id { get; private set; }
+        public new Guid Id { get; private set; }
         public string Nome { get; private set; }
         public string Descricao { get; private set; }
         public bool Ativo { get; private set; }
@@ -77,6 +78,10 @@ namespace ECommerce.Catalogo.Domain
             Validacao.ValidarSeVazio(Descricao, "O campo Descricao do produto não pode estar vazio");
             Validacao.ValidarSeMenorQue(Valor, 1, "O campo Valor do produto não pode se menor igual a 0");
             Validacao.ValidarSeVazio(Imagem, "O campo Imagem do produto não pode estar vazio");
+        }
+
+        public void Dispose()
+        {
         }
     }
 }
