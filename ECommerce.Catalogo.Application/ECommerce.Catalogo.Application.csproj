@@ -5,10 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="Events\" />
-    <Folder Include="DTO\" />
-    <Folder Include="Queries\" />
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Catalogo.Domain\ECommerce.Catalogo.Domain.csproj" />
   </ItemGroup>
 
 </Project>

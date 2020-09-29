@@ -9,7 +9,7 @@ namespace ECommerce.Catalogo.Domain
 {
     public class Produto : Entity, IProduto, IAggregateRoot
     {
-        public new Guid Id { get; private set; }
+        public Guid CategoriaId { get; private set; }
         public string Nome { get; private set; }
         public string Descricao { get; private set; }
         public bool Ativo { get; private set; }
@@ -19,23 +19,17 @@ namespace ECommerce.Catalogo.Domain
         public int QuantidadeEstoque { get; private set; }
         public Dimensoes Dimensoes { get; private set; }
         public Categoria Categoria { get; private set; }
-        public SubCategoria SubCategoria { get; private set; }
-        public SubCategoriaNivelDois SubCategoriaNivelDois { get; private set; }
-        public Marca Marca { get; private set; }
-
         protected Produto() { }
-        public Produto(string _nome, string _descricao, bool _ativo, decimal _valor, DateTime _dataCadastro, string _imagem, Dimensoes _dimensoes, Categoria _categoria, SubCategoria _subCategoria, SubCategoriaNivelDois _subCategoriaNivelDois)
+        public Produto(string nome, string descricao, bool ativo, decimal valor, Guid categoriaId, DateTime dataCadastro, string imagem, Dimensoes dimensoes)
         {
-            Nome = _nome;
-            Descricao = _descricao;
-            Ativo = _ativo;
-            Valor = _valor;
-            DataCadastro = _dataCadastro;
-            Imagem = _imagem;
-            Dimensoes = _dimensoes;
-            Categoria = _categoria;
-            SubCategoria = _subCategoria;
-            SubCategoriaNivelDois = _subCategoriaNivelDois;
+            CategoriaId = categoriaId;
+            Nome = nome;
+            Descricao = descricao;
+            Ativo = ativo;
+            Valor = valor;
+            DataCadastro = dataCadastro;
+            Imagem = imagem;
+            Dimensoes = dimensoes;
 
             Validar();
         }
@@ -44,9 +38,10 @@ namespace ECommerce.Catalogo.Domain
 
         public void Desativar() => Ativo = false;
 
-        public void AlterarCategoria(Categoria _categoria)
+        public void AlterarCategoria(Categoria categoria)
         {
-            Categoria = _categoria;
+            Categoria = categoria;
+            CategoriaId = categoria.Id;
         }
 
         public void AlterarDescricao(string _descricao)

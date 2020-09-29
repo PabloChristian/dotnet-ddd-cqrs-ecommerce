@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendas", "Vendas", "{737AB9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{00E8DE4A-8EF8-49CC-94BB-007B3FB4A3DA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{B8D3B8BA-359E-4012-BD5E-384600E24760}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{B8D3B8BA-359E-4012-BD5E-384600E24760}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Core.Service", "ECommerce.Core.Services\ECommerce.Core.Service.csproj", "{93ACAF31-5EBA-4F31-9367-6A03ECFBFDC9}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ECommerce.Vendas.Service", "ECommerce.Vendas.Service\ECommerce.Vendas.Service.csproj", "{C7E743F0-DC56-4C06-9409-80BDDDB87086}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "- NAO IMPLEMENTADOS", "- NAO IMPLEMENTADOS", "{1E798A3C-1914-42A0-9FCF-C82EE3BCBF05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommerce.FrontEnd.WebApplication", "ECommerce.FrontEnd.WebApplication\ECommerce.FrontEnd.WebApplication.csproj", "{1E41242B-0926-460B-BB87-872DCBFB3EE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{C7E743F0-DC56-4C06-9409-80BDDDB87086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E743F0-DC56-4C06-9409-80BDDDB87086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E743F0-DC56-4C06-9409-80BDDDB87086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E41242B-0926-460B-BB87-872DCBFB3EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E41242B-0926-460B-BB87-872DCBFB3EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E41242B-0926-460B-BB87-872DCBFB3EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E41242B-0926-460B-BB87-872DCBFB3EE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -105,6 +111,7 @@ Global
 		{3DFB8ED6-1573-4500-A1E2-BBB3B8981792} = {3E5E8DA5-5D08-41F3-ADB7-1B099A711922}
 		{2348F107-01BE-4E07-9F4E-E3842D0D9D7F} = {3E5E8DA5-5D08-41F3-ADB7-1B099A711922}
 		{C7E743F0-DC56-4C06-9409-80BDDDB87086} = {737AB9E2-DE46-4551-BA52-22C140E7E058}
+		{1E41242B-0926-460B-BB87-872DCBFB3EE2} = {B8D3B8BA-359E-4012-BD5E-384600E24760}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EEC437EB-4B78-4B78-ADA4-EC59FFF89DDE}

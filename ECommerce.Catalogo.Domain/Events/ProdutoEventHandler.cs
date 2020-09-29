@@ -1,4 +1,5 @@
 ﻿using ECommerce.Catalogo.Domain.Interface;
+using ECommerce.Catalogo.Domain.Interfaces;
 using ECommerce.Core.Service.Communication.Interface;
 using ECommerce.Core.Service.Message.IntegrationEvent.PedidoEvent;
 using MediatR;

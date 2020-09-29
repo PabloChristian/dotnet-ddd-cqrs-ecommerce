@@ -3,15 +3,13 @@ using System;
 
 namespace ECommerce.Catalogo.Domain
 {
-    internal class ProdutoAbaixoEstoqueEvent : DomainEvent
+    public class ProdutoAbaixoEstoqueEvent : DomainEvent
     {
-        private Guid id;
-        private int quantidadeEstoque;
+        public int QuantidadeRestante { get; private set; }
 
-        public ProdutoAbaixoEstoqueEvent(Guid id, int quantidadeEstoque)
+        public ProdutoAbaixoEstoqueEvent(Guid aggregateId, int quantidadeRestante) : base(aggregateId)
         {
-            this.id = id;
-            this.quantidadeEstoque = quantidadeEstoque;
+            QuantidadeRestante = quantidadeRestante;
         }
     }
 }
