@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ECommerce.Catalogo.Application\ECommerce.Catalogo.Application.csproj" />
+    <ProjectReference Include="..\ECommerce.Catalogo.Domain\ECommerce.Catalogo.Domain.csproj" />
+    <ProjectReference Include="..\ECommerce.Catalogo.Infrastructure\ECommerce.Catalogo.Infrastructure.csproj" />
+    <ProjectReference Include="..\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
+  </ItemGroup>
+
+</Project>

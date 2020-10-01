@@ -1,0 +1,6 @@
+C:\Projetos\Pessoal\ECommerce\ECommerce.FrontEnd.WebApplication\obj\Debug\netcoreapp3.1\ECommerce.FrontEnd.WebApplication.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.FrontEnd.WebApplication\obj\Debug\netcoreapp3.1\ECommerce.FrontEnd.WebApplication.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.FrontEnd.WebApplication\obj\Debug\netcoreapp3.1\ECommerce.FrontEnd.WebApplication.RazorAssemblyInfo.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.FrontEnd.WebApplication\obj\Debug\netcoreapp3.1\ECommerce.FrontEnd.WebApplication.RazorAssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\ECommerce.FrontEnd.WebApplication\obj\Debug\netcoreapp3.1\ECommerce.FrontEnd.WebApplication.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.FrontEnd.WebApplication\obj\Debug\netcoreapp3.1\ECommerce.FrontEnd.WebApplication.AssemblyInfo.cs

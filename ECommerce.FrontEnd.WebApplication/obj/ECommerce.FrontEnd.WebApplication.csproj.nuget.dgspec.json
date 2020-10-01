@@ -1,0 +1,397 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.FrontEnd.WebApplication\\ECommerce.FrontEnd.WebApplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj",
+        "projectName": "ECommerce.Catalogo.Application",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj",
+        "projectName": "ECommerce.Catalogo.Domain",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+              },
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj",
+        "projectName": "ECommerce.Catalogo.Infrastructure",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj",
+        "projectName": "ECommerce.Core.Service",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.FrontEnd.WebApplication\\ECommerce.FrontEnd.WebApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.FrontEnd.WebApplication\\ECommerce.FrontEnd.WebApplication.csproj",
+        "projectName": "ECommerce.FrontEnd.WebApplication",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.FrontEnd.WebApplication\\ECommerce.FrontEnd.WebApplication.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.FrontEnd.WebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj"
+              },
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj"
+              },
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj"
+              },
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj",
+        "projectName": "ECommerce.Vendas.Domain",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Vendas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
