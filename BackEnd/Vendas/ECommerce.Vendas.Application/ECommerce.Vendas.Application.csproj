@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Catalogo\" />
+    <Folder Include="Commands\Financeiro\" />
+    <Folder Include="Commands\Fiscal\" />
+    <Folder Include="Commands\Pagamentos\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Events\" />
+    <Folder Include="Queries\Catalogo\" />
+    <Folder Include="Queries\Financeiro\" />
+    <Folder Include="Queries\Fiscal\" />
+    <Folder Include="Queries\Pagamentos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
+  </ItemGroup>
+
+</Project>

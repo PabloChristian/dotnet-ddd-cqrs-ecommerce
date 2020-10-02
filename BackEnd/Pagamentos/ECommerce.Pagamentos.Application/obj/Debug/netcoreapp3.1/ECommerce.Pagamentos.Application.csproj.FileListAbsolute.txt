@@ -1,0 +1,8 @@
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\bin\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.deps.json
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\bin\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.dll
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\bin\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.pdb
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.dll
+C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Application\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Application.pdb

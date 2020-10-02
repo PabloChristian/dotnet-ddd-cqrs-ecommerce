@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj",
+      "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj",
+      "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj",
+      "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.FrontEnd.WebApplication\\ECommerce.FrontEnd.WebApplication.csproj",
+      "projectName": "ECommerce.FrontEnd.WebApplication",
+      "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.FrontEnd.WebApplication\\ECommerce.FrontEnd.WebApplication.csproj",
+      "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.FrontEnd.WebApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj"
+            },
+            "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj"
+            },
+            "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj"
+            },
+            "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Domain\\ECommerce.Catalogo.Domain.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Infrastructure\\ECommerce.Catalogo.Infrastructure.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Catalogo.Application\\ECommerce.Catalogo.Application.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Projetos\\Pessoal\\ECommerce\\FrontEnd\\Web\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ECommerce.Catalogo.Domain/1.0.0": {
+        "dependencies": {
+          "ECommerce.Core.Service": "1.0.0",
+          "ECommerce.Vendas.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce.Catalogo.Domain.dll": {}
+        }
+      },
+      "MediatR/8.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "ECommerce.Core.Service/1.0.0": {
+        "dependencies": {
+          "MediatR": "8.1.0"
+        },
+        "runtime": {
+          "ECommerce.Core.Service.dll": {}
+        }
+      },
+      "ECommerce.Vendas.Domain/1.0.0": {
+        "dependencies": {
+          "ECommerce.Core.Service": "1.0.0"
+        },
+        "runtime": {
+          "ECommerce.Vendas.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ECommerce.Catalogo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MediatR/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KJFnA0MV83bNOhvYbjIX1iDykhwFXoQu0KV7E1SVbNA/CmO2I7SAm2Baly0eS7VJ2GwlmStLajBfeiNgTpvYzQ==",
+      "path": "mediatr/8.1.0",
+      "hashPath": "mediatr.8.1.0.nupkg.sha512"
+    },
+    "ECommerce.Core.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ECommerce.Vendas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.deps.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfoInputs.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfo.cs
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.deps.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.deps.json
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb

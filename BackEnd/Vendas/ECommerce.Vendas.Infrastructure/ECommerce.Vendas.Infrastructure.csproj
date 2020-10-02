@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Mapping\" />
+    <Folder Include="Migration\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
+    <ProjectReference Include="..\ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

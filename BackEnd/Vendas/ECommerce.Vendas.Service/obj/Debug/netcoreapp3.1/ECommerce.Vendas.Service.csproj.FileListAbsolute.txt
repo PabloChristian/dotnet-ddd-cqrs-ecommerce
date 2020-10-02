@@ -1,0 +1,37 @@
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.exe
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.deps.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.runtimeconfig.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.runtimeconfig.dev.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.AssemblyInfoInputs.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.AssemblyInfo.cs
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.RazorTargetAssemblyInfo.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\staticwebassets\ECommerce.Vendas.Service.StaticWebAssets.Manifest.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\staticwebassets\ECommerce.Vendas.Service.StaticWebAssets.xml
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.genruntimeconfig.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.exe
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.deps.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.runtimeconfig.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.runtimeconfig.dev.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Service.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.MvcApplicationPartsAssemblyInfo.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.RazorTargetAssemblyInfo.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\staticwebassets\ECommerce.Vendas.Service.StaticWebAssets.Manifest.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\staticwebassets\ECommerce.Vendas.Service.StaticWebAssets.xml
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.genruntimeconfig.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Service\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Service.csprojAssemblyReference.cache

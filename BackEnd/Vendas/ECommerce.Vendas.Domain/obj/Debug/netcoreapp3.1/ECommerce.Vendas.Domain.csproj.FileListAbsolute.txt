@@ -1,0 +1,22 @@
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csprojAssemblyReference.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.AssemblyInfo.cs
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.deps.json
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Service.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Service.pdb
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csproj.CopyComplete
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\- Projetos Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.deps.json
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Service.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Service.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csproj.CopyComplete
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csprojAssemblyReference.cache

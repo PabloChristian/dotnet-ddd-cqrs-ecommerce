@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MediatR/8.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "ECommerce.Core.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "MediatR": "8.1.0"
+        },
+        "compile": {
+          "bin/placeholder/ECommerce.Core.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerce.Core.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/8.1.0": {
+      "sha512": "KJFnA0MV83bNOhvYbjIX1iDykhwFXoQu0KV7E1SVbNA/CmO2I7SAm2Baly0eS7VJ2GwlmStLajBfeiNgTpvYzQ==",
+      "type": "package",
+      "path": "mediatr/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.8.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "ECommerce.Core.Service/1.0.0": {
+      "type": "project",
+      "path": "../../Core/ECommerce.Core.Services/ECommerce.Core.Service.csproj",
+      "msbuildProject": "../../Core/ECommerce.Core.Services/ECommerce.Core.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj",
+      "ECommerce.Core.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj",
+      "projectName": "ECommerce.Vendas.Domain",
+      "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj",
+      "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+      "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+            },
+            "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
+              "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
