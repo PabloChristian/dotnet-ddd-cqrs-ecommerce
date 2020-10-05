@@ -26,3 +26,7 @@
 /ECommerce.Vendas.Service/bin
 bin
 obj
+/BackEnd/Pagamentos/ECommerce.Pagamentos.Infrastructure/obj
+/BackEnd/Pagamentos/ECommerce.Pagamentos.Infrastructure/bin
+/bin
+/obj
