@@ -20,3 +20,6 @@ C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\De
 C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.AssemblyInfo.cs
 C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.dll
 C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Core.Service.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\bin\Debug\netcoreapp3.1\ECommerce.Core.Service.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Application\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Application.csproj.CopyComplete

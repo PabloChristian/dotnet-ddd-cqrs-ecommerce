@@ -5,24 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Catalogo\" />
-    <Folder Include="Commands\Financeiro\" />
-    <Folder Include="Commands\Fiscal\" />
-    <Folder Include="Commands\Pagamentos\" />
-    <Folder Include="DTO\" />
-    <Folder Include="Events\" />
-    <Folder Include="Queries\Catalogo\" />
-    <Folder Include="Queries\Financeiro\" />
-    <Folder Include="Queries\Fiscal\" />
-    <Folder Include="Queries\Pagamentos\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
     <PackageReference Include="FluentValidation" Version="9.2.2" />
+    <PackageReference Include="MediatR" Version="8.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
+    <ProjectReference Include="..\..\Core\ECommerce.Core.Domain\ECommerce.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Vendas\ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj" />
+    <ProjectReference Include="..\..\Vendas\ECommerce.Vendas.Infrastructure\ECommerce.Vendas.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

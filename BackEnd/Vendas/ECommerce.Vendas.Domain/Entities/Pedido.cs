@@ -2,12 +2,13 @@
 using ECommerce.Vendas.Domain.Enum;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text;
+using FluentValidation.Results;
+using System.Linq;
+using ECommerce.Core.Service.DomainObject.Validation;
 
 namespace ECommerce.Vendas.Domain.Entities
 {
-    public class Pedido : Entity, IAggregateRoot
+    public partial class Pedido : Entity, IAggregateRoot
     {
         public int Codigo { get; private set; }
         public Guid ClienteId { get; private set; }
@@ -41,7 +42,7 @@ namespace ECommerce.Vendas.Domain.Entities
         public ValidationResult AplicarVoucher(Voucher voucher)
         {
             ValidationResult validationResult = voucher.ValidarSeAplicavel();
-            if (!validationResult.) return validationResult;
+            if (!validationResult.IsValid) return validationResult;
 
             Voucher = voucher;
             VoucherUtilizado = true;

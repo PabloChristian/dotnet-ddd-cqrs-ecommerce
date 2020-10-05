@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using ECommerce.Catalogo.Application.Interfaces;
 using ECommerce.Catalogo.Application.ViewModel;
 using ECommerce.Catalogo.Domain;
+using ECommerce.Catalogo.Domain.Entities.Interfaces;
 using ECommerce.Catalogo.Domain.Interface;
-using ECommerce.Catalogo.Domain.Interfaces;
 using ECommerce.Core.Service.DomainObject.Validation;
 
 namespace ECommerce.Catalogo.Application.Services
@@ -42,13 +41,13 @@ namespace ECommerce.Catalogo.Application.Services
             return _mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterTodos());
         }
 
-        public async Task AdicionarProduto(ProdutoViewModel produtoViewModel)
+        public async void AdicionarProduto(ProdutoViewModel produtoViewModel)
         {
             var produto = _mapper.Map<Produto>(produtoViewModel);
             _produtoRepository.Adicionar(produto);
         }
 
-        public async Task AtualizarProduto(ProdutoViewModel produtoViewModel)
+        public async void AtualizarProduto(ProdutoViewModel produtoViewModel)
         {
             var produto = _mapper.Map<Produto>(produtoViewModel);
             _produtoRepository.Atualizar(produto);

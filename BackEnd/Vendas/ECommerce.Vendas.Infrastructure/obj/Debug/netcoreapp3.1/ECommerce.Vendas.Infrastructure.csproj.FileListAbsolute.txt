@@ -12,3 +12,8 @@ C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcorea
 C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.AssemblyInfo.cs
 C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.dll
 C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Infrastructure\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Infrastructure.pdb

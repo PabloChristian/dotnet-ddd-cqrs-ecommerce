@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interface\" />
     <Folder Include="Event\" />
+    <Folder Include="Integrations\" />
   </ItemGroup>
 
 </Project>

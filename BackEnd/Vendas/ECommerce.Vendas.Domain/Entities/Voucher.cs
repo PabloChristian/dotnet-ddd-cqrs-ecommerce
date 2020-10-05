@@ -2,8 +2,9 @@
 using ECommerce.Vendas.Domain.Enum;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+using FluentValidation;
 using System.Text;
+using FluentValidation.Results;
 
 namespace ECommerce.Vendas.Domain.Entities
 {
@@ -25,7 +26,7 @@ namespace ECommerce.Vendas.Domain.Entities
 
         internal ValidationResult ValidarSeAplicavel()
         {
-            return new VoucherAplicavelValidation.Validate(this);
+            return new VoucherAplicavelValidation().Validate(this);
         }
     }
 

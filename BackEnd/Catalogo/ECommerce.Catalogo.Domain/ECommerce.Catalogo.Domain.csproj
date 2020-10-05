@@ -1,12 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
-    <ProjectReference Include="..\ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\ECommerce.Core.Domain\ECommerce.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Vendas\ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj" />
   </ItemGroup>
 
 </Project>

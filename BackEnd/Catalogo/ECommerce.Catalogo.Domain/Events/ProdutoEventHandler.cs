@@ -1,11 +1,8 @@
-﻿using ECommerce.Catalogo.Domain.Interface;
-using ECommerce.Catalogo.Domain.Interfaces;
+﻿using ECommerce.Catalogo.Domain.Entities.Interfaces;
+using ECommerce.Catalogo.Domain.Interface;
 using ECommerce.Core.Service.Communication.Interface;
 using ECommerce.Core.Service.Message.IntegrationEvent.PedidoEvent;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 

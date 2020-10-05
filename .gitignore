@@ -24,3 +24,5 @@
 /ECommerce.Vendas.Domain/obj
 /ECommerce.Vendas.Service/obj
 /ECommerce.Vendas.Service/bin
+bin
+obj

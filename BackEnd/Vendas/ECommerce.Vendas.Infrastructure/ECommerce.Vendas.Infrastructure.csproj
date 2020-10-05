@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
-    <ProjectReference Include="..\ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj" />
+    <ProjectReference Include="..\..\Core\ECommerce.Core.Domain\ECommerce.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Vendas\ECommerce.Vendas.Domain\ECommerce.Vendas.Domain.csproj" />
   </ItemGroup>
 
 </Project>

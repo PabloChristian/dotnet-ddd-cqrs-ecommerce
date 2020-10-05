@@ -6,13 +6,11 @@
 
   <ItemGroup>
     <Folder Include="Events\" />
-    <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
-    <ProjectReference Include="..\ECommerce.Core.Services\ECommerce.Core.Service.csproj" />
+    <ProjectReference Include="..\..\Core\ECommerce.Core.Domain\ECommerce.Core.Domain.csproj" />
   </ItemGroup>
 
 </Project>

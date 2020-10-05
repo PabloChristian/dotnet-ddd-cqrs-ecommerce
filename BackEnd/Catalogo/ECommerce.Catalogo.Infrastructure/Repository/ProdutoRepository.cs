@@ -1,11 +1,11 @@
 ﻿using ECommerce.Catalogo.Domain;
-using ECommerce.Catalogo.Domain.Interfaces;
 using ECommerce.Catalogo.Infrastructure.Context;
+using ECommerce.Catalogo.Infrastructure.Repository.Interfaces;
+using ECommerce.Core.Domain.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ECommerce.Catalogo.Infrastructure.Repository
@@ -18,6 +18,7 @@ namespace ECommerce.Catalogo.Infrastructure.Repository
         {
             _context = context;
         }
+        public IUnitOfWork UnitOfWork => _context;
 
         public async Task<IEnumerable<Produto>> ObterTodos()
         {

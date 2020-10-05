@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ECommerce.Core.Service.DomainObject;
+using System;
 
 namespace ECommerce.Vendas.Domain.Entities
 {

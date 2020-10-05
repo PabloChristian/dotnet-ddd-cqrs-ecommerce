@@ -6,3 +6,10 @@ C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\n
 C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.AssemblyInfo.cs
 C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.dll
 C:\Projetos\Pessoal\ECommerce\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\bin\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.deps.json
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\bin\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\bin\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Pagamentos\ECommerce.Pagamentos.Domain\obj\Debug\netcoreapp3.1\ECommerce.Pagamentos.Domain.pdb

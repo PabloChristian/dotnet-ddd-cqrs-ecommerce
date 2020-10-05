@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ECommerce.Catalogo.Domain.Interface;
 using ECommerce.Core.Service.DomainObject;
 using ECommerce.Core.Service.DomainObject.Validation;
 
 namespace ECommerce.Catalogo.Domain
 {
-    public class Produto : Entity, IProduto, IAggregateRoot
+    public class Produto : Entity, IAggregateRoot
     {
         public Guid CategoriaId { get; private set; }
         public string Nome { get; private set; }
@@ -77,6 +74,7 @@ namespace ECommerce.Catalogo.Domain
 
         public void Dispose()
         {
+            throw new NotSupportedException();
         }
     }
 }

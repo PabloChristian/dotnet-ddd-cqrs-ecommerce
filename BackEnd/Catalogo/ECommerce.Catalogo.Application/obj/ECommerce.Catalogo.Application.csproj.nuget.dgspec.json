@@ -97,11 +97,149 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Catalogo\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj": {
-                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Catalogo\\ECommerce.Core.Services\\ECommerce.Core.Service.csproj"
+              "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj"
               },
-              "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Catalogo\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj": {
-                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Catalogo\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj"
+              "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj",
+        "projectName": "ECommerce.Core.Domain",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.2.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj",
+        "projectName": "ECommerce.Vendas.Domain",
+        "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\ECommerce.Vendas.Domain.csproj",
+        "packagesPath": "C:\\Users\\PABLO-DESENV\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Vendas\\ECommerce.Vendas.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PABLO-DESENV\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj": {
+                "projectPath": "C:\\Projetos\\Pessoal\\ECommerce\\BackEnd\\Core\\ECommerce.Core.Domain\\ECommerce.Core.Domain.csproj"
               }
             }
           }

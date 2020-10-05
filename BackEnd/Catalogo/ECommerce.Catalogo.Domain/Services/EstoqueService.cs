@@ -1,11 +1,9 @@
-﻿using ECommerce.Catalogo.Domain.Interface;
-using ECommerce.Catalogo.Domain.Interfaces;
+﻿using ECommerce.Catalogo.Domain.Entities.Interfaces;
+using ECommerce.Catalogo.Domain.Interface;
 using ECommerce.Core.Service.Communication.Interface;
 using ECommerce.Core.Service.DomainObject.DTO;
 using ECommerce.Core.Service.Message.Notification;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ECommerce.Catalogo.Domain

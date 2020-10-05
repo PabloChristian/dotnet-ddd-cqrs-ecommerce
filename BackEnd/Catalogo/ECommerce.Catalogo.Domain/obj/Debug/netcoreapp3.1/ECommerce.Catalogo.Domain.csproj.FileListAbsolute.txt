@@ -14,3 +14,16 @@ C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\
 C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.csproj.CopyComplete
 C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.dll
 C:\Projetos\Pessoal\ECommerce\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.deps.json
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.csproj.CopyComplete
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Catalogo\ECommerce.Catalogo.Domain\obj\Debug\netcoreapp3.1\ECommerce.Catalogo.Domain.pdb

@@ -20,3 +20,14 @@ C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\EC
 C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
 C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
 C:\Projetos\Pessoal\ECommerce\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.deps.json
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Domain.dll
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\bin\Debug\netcoreapp3.1\ECommerce.Core.Domain.pdb
+C:\Projetos\Pessoal\ECommerce\BackEnd\Vendas\ECommerce.Vendas.Domain\obj\Debug\netcoreapp3.1\ECommerce.Vendas.Domain.csproj.CopyComplete

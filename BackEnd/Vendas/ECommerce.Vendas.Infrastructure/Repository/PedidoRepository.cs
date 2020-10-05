@@ -1,9 +1,11 @@
-﻿using ECommerce.Vendas.Domain.Entities;
-using ECommerce.Vendas.Infrastructure.Context;
+﻿using ECommerce.Core.Domain.Data;
+using ECommerce.Vendas.Domain.Entities;
+using ECommerce.Vendas.Domain.Enum;
 using ECommerce.Vendas.Infrastructure.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace ECommerce.Vendas.Infrastructure.Repository

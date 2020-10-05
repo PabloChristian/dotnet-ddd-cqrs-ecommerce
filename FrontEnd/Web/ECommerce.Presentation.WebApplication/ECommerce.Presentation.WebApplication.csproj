@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BackEnd\Catalogo\ECommerce.Catalogo.Application\ECommerce.Catalogo.Application.csproj" />
+    <ProjectReference Include="..\..\..\BackEnd\Catalogo\ECommerce.Catalogo.Infrastructure\ECommerce.Catalogo.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\BackEnd\Vendas\ECommerce.Vendas.Application\ECommerce.Vendas.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Admin\" />
+    <Folder Include="Views\Admin\" />
+    <Folder Include="Views\Catalogo\" />
+    <Folder Include="Views\Carrinho\" />
+    <Folder Include="Views\Eventos\" />
+    <Folder Include="Views\Pedido\" />
+  </ItemGroup>
+
+</Project>

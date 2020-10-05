@@ -1,0 +1,13 @@
+﻿[*.cs]
+
+# IDE0052: Remover membros particulares não lidos
+dotnet_diagnostic.IDE0052.severity = none
+
+# S4487: Unread "private" fields should be removed
+dotnet_diagnostic.S4487.severity = none
+
+# S3877: Exceptions should not be thrown from unexpected methods
+dotnet_diagnostic.S3877.severity = none
+
+# S2953: Methods named "Dispose" should implement "IDisposable.Dispose"
+dotnet_diagnostic.S2953.severity = none

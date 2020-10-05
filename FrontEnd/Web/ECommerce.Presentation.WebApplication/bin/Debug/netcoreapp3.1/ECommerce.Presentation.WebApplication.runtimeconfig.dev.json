@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\PABLO-DESENV\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PABLO-DESENV\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}
