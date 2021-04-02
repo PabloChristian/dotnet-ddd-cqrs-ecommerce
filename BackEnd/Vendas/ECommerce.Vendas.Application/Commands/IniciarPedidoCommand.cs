@@ -29,7 +29,7 @@ namespace ECommerce.Vendas.Application.Commands
 
         public override bool Validar()
         {
-            FluentValidation.Results.ValidationResult validacao = new AdicionarItemPedidoValidation().Validate(this);
+            FluentValidation.Results.ValidationResult validacao = new IniciarPedidoValidation().Validate(this);
             return validacao.IsValid;
         }
     }
