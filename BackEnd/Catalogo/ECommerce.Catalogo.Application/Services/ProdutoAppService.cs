@@ -41,13 +41,13 @@ namespace ECommerce.Catalogo.Application.Services
             return _mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterTodos());
         }
 
-        public async void AdicionarProduto(ProdutoViewModel produtoViewModel)
+        public async Task AdicionarProduto(ProdutoViewModel produtoViewModel)
         {
             var produto = _mapper.Map<Produto>(produtoViewModel);
             _produtoRepository.Adicionar(produto);
         }
 
-        public async void AtualizarProduto(ProdutoViewModel produtoViewModel)
+        public async Task AtualizarProduto(ProdutoViewModel produtoViewModel)
         {
             var produto = _mapper.Map<Produto>(produtoViewModel);
             _produtoRepository.Atualizar(produto);

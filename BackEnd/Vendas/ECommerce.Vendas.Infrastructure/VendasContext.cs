@@ -39,10 +39,7 @@ namespace ECommerce.Vendas.Infrastructure
                     entry.Property("DataCadastro").IsModified = false;
                 }
             }
-
             var sucesso = await base.SaveChangesAsync() > 0;
-            if (sucesso) await _mediatorHandler.PublicarEventos(this);
-
             return sucesso;
         }
 
